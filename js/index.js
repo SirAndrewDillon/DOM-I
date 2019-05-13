@@ -74,10 +74,10 @@ mainContent[4].childNodes[3].textContent = siteContent["main-content"]["vision-c
 
 // Contact
 let contact = document.querySelector(".contact");
-contact.childNodes[1].innerText = siteContent["contact"]["contact-h4"];
-contact.childNodes[3].innerHTML = siteContent["contact"]["address"];
-contact.childNodes[5].innerText = siteContent["contact"]["phone"];
-contact.childNodes[7].innerText = siteContent["contact"]["email"];
+contact.childNodes[1].textContent = siteContent["contact"]["contact-h4"];
+contact.childNodes[3].textContent = siteContent["contact"]["address"];
+contact.childNodes[5].textContent = siteContent["contact"]["phone"];
+contact.childNodes[7].textContent = siteContent["contact"]["email"];
 
 // Footer
 let footer = document.querySelector("footer");
