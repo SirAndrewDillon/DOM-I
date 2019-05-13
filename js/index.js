@@ -104,8 +104,3 @@ let navLinks = document.querySelectorAll("a");
 for (let i = 0; i < navLinks.length; i++) {
     navLinks[i].style.color = "green";
 }
-
-// Or You Can Do forEach to turn them green
-myNav.forEach(element => {
-
-});
